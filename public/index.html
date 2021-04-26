@@ -5,6 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/assets/css/main.min.css">
+
+    <script>
+        function myFunction() {
+          var x = document.getElementById("navbar-mobile");
+          if (x.className === "menu-mobile") {
+            x.className += " show-menu";
+          } else {
+            x.className = "menu-mobile";
+          }
+        }
+        </script>
     <title>Achieve</title>
 </head>
 
@@ -32,6 +43,31 @@
         </div>
     </div>
 
+    <div class="topbar-marquee">
+        <div class="container">
+            <marquee>
+                <div class="item-topbar-marquee">
+                    <span class="it-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </span>
+                    <p class="it-text">Tongkol Raya No 5 - Minomartani <br/> Sleman, Yogyakarta</p>
+                </div>
+                <div class="item-topbar-marquee">
+                    <span class="it-icon">
+                        <i class="far fa-clock"></i>
+                    </span>
+                    <p class="it-text">Monday - Friday : 9:00 AM to 7:00 PM <br/> Saturday, Sunday : Closed</p>
+                </div>
+                <div class="item-topbar-marquee">
+                    <span class="it-icon">
+                        <i class="fas fa-phone"></i>
+                    </span>
+                    <p class="it-text">(+62) 123 456 7896 <br/> halo@tanjoo.com</p>
+                </div>
+            </marquee>
+        </div>
+    </div>
+
     <!-- navbar -->
     <div class="navbar">
         <div class="container">
@@ -50,7 +86,24 @@
                     <li><a>Contact</a></li>
                 </ul>
             </nav>
+            <nav class="navbar-menu-mobile">
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fas fa-bars"></i>
+                </a>
+            </nav>
         </div>
+    </div>
+    <div class="container">
+    <div class="menu-mobile" id="navbar-mobile">
+        <ul>
+            <li><a>Home</a></li>
+            <li><a>Service</a></li>
+            <li><a>Portofolio</a></li>
+            <li><a>Aboot</a></li>
+            <li><a>Blog</a></li>
+            <li><a>Contact</a></li>
+        </ul>
+    </div>
     </div>
     <div class="image-header">
         <img src="./assets/images/header.png" alt="image-header">
@@ -62,13 +115,13 @@
     <div class="body-content">
         <div class="container">
             <div class="row">
-                <div class="col-8">
+                <div class="col-sm-12 col-lg-8 col-xl-8">
                     <div class="item-content">
                         <div class="row">
-                            <div class="col-4">
+                            <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
                                 <img src="./assets/images/hotel1.png" alt="hotel 1">
                             </div>
-                            <div class="col-8 ic-content">
+                            <div class="col-sm-12 col-md-8 col-lg-8 col-xl-8 ic-content">
                                 <h5>Stunning new 4 bedroom must see villa in brawa</h5>
                                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic ea, laudantium dignissimos repellendus vero, veritatis natus nostrum ratione obcaecati numquam, impedit quidem aperiam culpa sapiente quaerat illo harum esse possimus!</p>
                                 <div class="property-content">
@@ -97,10 +150,10 @@
 
                     <div class="item-content">
                         <div class="row">
-                            <div class="col-4">
+                            <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
                                 <img src="./assets/images/hotel1.png" alt="hotel 1">
                             </div>
-                            <div class="col-8 ic-content">
+                            <div class="col-sm-12 col-md-8 col-lg-8 col-xl-8 ic-content">
                                 <h5>Stunning new 4 bedroom must see villa in brawa</h5>
                                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic ea, laudantium dignissimos repellendus vero, veritatis natus nostrum ratione obcaecati numquam, impedit quidem aperiam culpa sapiente quaerat illo harum esse possimus!</p>
                                 <div class="property-content">
@@ -129,10 +182,10 @@
 
                     <div class="item-content">
                         <div class="row">
-                            <div class="col-4">
+                            <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
                                 <img src="./assets/images/hotel1.png" alt="hotel 1">
                             </div>
-                            <div class="col-8 ic-content">
+                            <div class="col-sm-12 col-md-8 col-lg-8 col-xl-8 ic-content">
                                 <h5>Stunning new 4 bedroom must see villa in brawa</h5>
                                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic ea, laudantium dignissimos repellendus vero, veritatis natus nostrum ratione obcaecati numquam, impedit quidem aperiam culpa sapiente quaerat illo harum esse possimus!</p>
                                 <div class="property-content">
@@ -161,10 +214,10 @@
 
                     <div class="item-content">
                         <div class="row">
-                            <div class="col-4">
+                            <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
                                 <img src="./assets/images/hotel1.png" alt="hotel 1">
                             </div>
-                            <div class="col-8 ic-content">
+                            <div class="col-sm-12 col-md-8 col-lg-8 col-xl-8 ic-content">
                                 <h5>Stunning new 4 bedroom must see villa in brawa</h5>
                                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic ea, laudantium dignissimos repellendus vero, veritatis natus nostrum ratione obcaecati numquam, impedit quidem aperiam culpa sapiente quaerat illo harum esse possimus!</p>
                                 <div class="property-content">
@@ -193,10 +246,10 @@
 
                     <div class="item-content">
                         <div class="row">
-                            <div class="col-4">
+                            <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
                                 <img src="./assets/images/hotel1.png" alt="hotel 1">
                             </div>
-                            <div class="col-8 ic-content">
+                            <div class="col-sm-12 col-md-8 col-lg-8 col-xl-8 ic-content">
                                 <h5>Stunning new 4 bedroom must see villa in brawa</h5>
                                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic ea, laudantium dignissimos repellendus vero, veritatis natus nostrum ratione obcaecati numquam, impedit quidem aperiam culpa sapiente quaerat illo harum esse possimus!</p>
                                 <div class="property-content">
@@ -225,10 +278,10 @@
 
                     <div class="item-content">
                         <div class="row">
-                            <div class="col-4">
+                            <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
                                 <img src="./assets/images/hotel1.png" alt="hotel 1">
                             </div>
-                            <div class="col-8 ic-content">
+                            <div class="col-sm-12 col-md-8 col-lg-8 col-xl-8 ic-content">
                                 <h5>Stunning new 4 bedroom must see villa in brawa</h5>
                                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic ea, laudantium dignissimos repellendus vero, veritatis natus nostrum ratione obcaecati numquam, impedit quidem aperiam culpa sapiente quaerat illo harum esse possimus!</p>
                                 <div class="property-content">
@@ -254,12 +307,13 @@
                             </div>
                         </div>
                     </div>
+
                     <div class="item-content">
                         <div class="row">
-                            <div class="col-4">
+                            <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
                                 <img src="./assets/images/hotel1.png" alt="hotel 1">
                             </div>
-                            <div class="col-8 ic-content">
+                            <div class="col-sm-12 col-md-8 col-lg-8 col-xl-8 ic-content">
                                 <h5>Stunning new 4 bedroom must see villa in brawa</h5>
                                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic ea, laudantium dignissimos repellendus vero, veritatis natus nostrum ratione obcaecati numquam, impedit quidem aperiam culpa sapiente quaerat illo harum esse possimus!</p>
                                 <div class="property-content">
@@ -285,12 +339,13 @@
                             </div>
                         </div>
                     </div>
+
                     <div class="item-content">
                         <div class="row">
-                            <div class="col-4">
+                            <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
                                 <img src="./assets/images/hotel1.png" alt="hotel 1">
                             </div>
-                            <div class="col-8 ic-content">
+                            <div class="col-sm-12 col-md-8 col-lg-8 col-xl-8 ic-content">
                                 <h5>Stunning new 4 bedroom must see villa in brawa</h5>
                                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic ea, laudantium dignissimos repellendus vero, veritatis natus nostrum ratione obcaecati numquam, impedit quidem aperiam culpa sapiente quaerat illo harum esse possimus!</p>
                                 <div class="property-content">
@@ -334,8 +389,7 @@
                     </div>
                 </div>
 
-
-                <div class="col-4">
+                <div class="col-sm-12 col-lg-4 col-xl-4">
                     <div class="button-two">
                         <a href="#" class="tab-panel tab-primary">
                             <i class="fas fa-home"></i>
@@ -437,14 +491,14 @@
     <section class="property">
         <div class="container">
             <div class="row">
-                <div class="col-md-4 col-sm-3">
+                <div class="col-lg-4 col-md-12 col-sm-12">
                     <div class="property-brand">
                         <a href="#">
                             <img src="./assets/images/logo3.png" alt="property logo">
                         </a>
                     </div>
                 </div>
-                <div class="col-md-8 col-sm-9">
+                <div class="col-lg-8 col-md-12 col-sm-12">
                     <div class="property-text">
                         <p>
                             Tonjoo Property is theme <strong>designed for your PROPERTY AGENCY</strong>
@@ -460,7 +514,7 @@
     <section class="about">
         <div class="container">
             <div class="row about-padding">
-                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3">
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                     <a href="#" class="about-brand">
                         <img src="./assets/images/logo2.png" alt="logo about">
                     </a>
@@ -468,7 +522,7 @@
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum odit, harum voluptas accusantium quae nostrum nisi deleniti ullam magnam, labore aliquid perferendis iste voluptatum alias, modi facere impedit dolorem placeat.
                     </p>
                 </div>
-                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3">
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                     <h5>
                         usefull link
                     </h5>
@@ -481,7 +535,7 @@
                         <li><a href="#">special tabs</a></li>
                     </ul>
                 </div>
-                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3">
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                     <h5>
                         information
                     </h5>
@@ -494,7 +548,7 @@
                         <li><a href="#">faq</a></li>
                     </ul>
                 </div>
-                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3">
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                     <h5>
                         instagram
                     </h5>
