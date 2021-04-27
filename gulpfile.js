@@ -59,6 +59,6 @@ exports.default = gulp.parallel(html, css, icons, serve);
 // });
 
 gulp.task('deploy', function () {
-return gulp.src("./public/**/*")
+return gulp.src("./dist/**/*")
 .pipe(deploy())
 });
